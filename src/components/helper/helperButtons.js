@@ -28,6 +28,6 @@ export const features = [
   {
     feature: "Plans & Payment",
     image: payment,
-    path: "/crypt",
+    path: "/Crypt",
   },
 ];

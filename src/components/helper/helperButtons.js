@@ -12,7 +12,7 @@ export const features = [
   {
     feature: "Home",
     image: home,
-    path: "/",
+    path: "/HomePage",
   },
   {
     feature: "Learning",
@@ -28,6 +28,6 @@ export const features = [
   {
     feature: "Plans & Payment",
     image: payment,
-    path: "/PaymentPage",
+    path: "/crypt",
   },
 ];

@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 function Crypto() {
-    const navigate = useNavigate()
+  const navigate = useNavigate();
   const [paymentMethod, setPaymentMethod] = useState(null); //paymentMethod holds the option
   const options = ["etherum", "usdt", "bitcoin"];
   //To handle the event on confirm payment button
   const handleConfirm = () => {
-    navigate("qrcode");
+    navigate("/Qrcode");
   };
   return (
     <div className="bg-white w-full">

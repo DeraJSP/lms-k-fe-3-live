@@ -1,6 +1,8 @@
 import "./App.css";
 import Qrcode from "./pages/payment/qrcode";
 import Crypt from "./pages/payment/crypt";
+import ConfirmPayment from "./pages/payment/ConfirmPayment";
+
 import LandingPage from "./pages/landing_page/LandingPage";
 import {
   createBrowserRouter,
@@ -62,6 +64,14 @@ const router = createBrowserRouter([
   {
     path: "/Hiparent",
     element: <Hiparent />,
+  },
+  {
+    path: "/Crypt",
+    element: <Crypt />,
+  },
+  {
+    path: "/Qrcode",
+    element: <Qrcode />,
   },
   {
     path: "/Notice",
